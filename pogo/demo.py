@@ -243,17 +243,17 @@ if __name__ == '__main__':
     if session:
 
         # General
-        getProfile(session)
-        getInventory(session)
+        #getProfile(session)
+        #getInventory(session)
 
         # Pokemon related
-        pokemon = findBestPokemon(session)
-        walkAndCatch(session, pokemon)
+        #pokemon = findBestPokemon(session)
+        #walkAndCatch(session, pokemon)
 
         # Pokestop related
-        fort = findClosestFort(session)
-        walkAndSpin(session, fort)
-
+        #fort = findClosestFort(session)
+        #walkAndSpin(session, fort)
+        simpleBot(session)
         # see simpleBot() for logical usecases
 
     else:
